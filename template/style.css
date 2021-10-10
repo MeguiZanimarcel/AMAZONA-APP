@@ -8,7 +8,9 @@ html {
     font-size: 1.6rem;
     font-family: Helvetica, Arial, sans-serif;
   }
-  
+  #root{
+    height: 100%;
+  }
   /* Layout */
 .grid-container {
     display: grid;
