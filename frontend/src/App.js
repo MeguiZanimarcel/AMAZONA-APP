@@ -1,5 +1,5 @@
 import React from 'react';
-import Product from './Components/product';
+import Produit from './Components/Produit';
 import data from './data';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
             <div>
                 <div className="row center">
                 {data.products.map((product)=>(
-                  <Product key={product._id} product={product}></Product>
+                  <Produit key={product._id} product={product}></Produit>
                   ))}                  
                </div>
              </div>
