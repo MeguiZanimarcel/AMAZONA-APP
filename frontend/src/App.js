@@ -3,6 +3,7 @@ import Produit from './Components/Produit';
 import data from './data';
 
 function App() {
+  <BrowserRoute>
   return (
     <div className="grid-container">
         <header className="row">
@@ -25,6 +26,7 @@ function App() {
         </main>
         <footer className="row center">All Right Reserved.</footer>
     </div>
+    </BrowserRoute>
   );
 }
 
