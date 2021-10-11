@@ -9,7 +9,7 @@ export default function HomeScreen() {
                 {data.products.map((product)=>(
                   <Produit key={product._id} product={product}></Produit>
                   ))}                  
-               </div>
-             </div>
-    )
+            </div>
+        </div>
+    );
 }
