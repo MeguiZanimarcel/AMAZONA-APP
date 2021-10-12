@@ -62,7 +62,7 @@ ul {
   list-style-type: none;
 }
 li {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 input,
 select,
@@ -70,7 +70,7 @@ textarea,
 button {
   padding: 1rem;
   border-radius: 0.5rem;
-  border: 0.1rem #424449 solid;
+  border: 0.1rem #071b4d solid;
   font-size: 1.6rem;
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -78,15 +78,11 @@ button {
   background-color: #f8f8f8;
   cursor: pointer;
 }
-button {
-  background-color: #f8f8f8;
-  cursor: pointer;
-}
 input:hover,
 select:hover,
 textarea:hover,
 button:hover {
-  border: 0.1rem #2b2a2a solid;
+  border: 0.2rem #5e0440 solid;
 }
 button.primary {
   background-color: #f0c040;
@@ -221,6 +217,9 @@ img.large {
 }
 .success {
   color: #20a020;
+}
+.error {
+  color: #eb0d0d;
 }
 .danger {
   color: #a02020;

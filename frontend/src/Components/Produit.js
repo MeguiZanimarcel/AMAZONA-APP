@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Rating from './Rating';
 
 export default function Produit(props) {
@@ -19,5 +19,5 @@ export default function Produit(props) {
             <div className="price">${product.price}</div>
         </div>
     </div>
-    )
+    );
 }

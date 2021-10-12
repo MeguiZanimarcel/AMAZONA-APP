@@ -1,5 +1,3 @@
-//npm i express
-//npm i --save-dev nodemon
 import express from 'express';
 import data from './data.js';
 
