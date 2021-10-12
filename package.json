@@ -1,5 +1,6 @@
 {
   "name": "amazona",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +9,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+ },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MeguiZanimarcel/AMAZONA-APP.git"
