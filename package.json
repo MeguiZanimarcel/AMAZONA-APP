@@ -6,11 +6,12 @@
   "main": "index.js",
   "dependencies": {
     "axios": "^0.23.0",
-    "cors": "^2.8.5",
+    "babel-eslint": "^10.1.0",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-react-redux": "^3.3.2",
     "express": "^4.17.1",
-    "react-redux": "^7.2.5"
+    "react-redux": "^7.2.5",
+    "Access-Control-Allow-Credentials": "true"
   },
   "scripts": {
     "build": "cd frontend && npm install && npm run build",
@@ -27,6 +28,8 @@
   },
   "homepage": "https://github.com/MeguiZanimarcel/AMAZONA-APP#readme",
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-node": "^11.1.0",
     "nodemon": "^2.0.13"
   }
 }
